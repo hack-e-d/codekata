@@ -1,4 +1,4 @@
-#to find if positive ,negative or zero 
+#to find if odd or even
 n=int(input())
 try:
     if(n>0):
