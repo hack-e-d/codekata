@@ -9,6 +9,7 @@ for i in range(0,n):
                 b.append(int(a[i]))
                 flag=1
 b.sort()
-print(*b,end=" ")
+if(flag==1):
+    print(*b,end=" ")
 if(flag==0):
     print("unique")
