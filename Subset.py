@@ -9,7 +9,6 @@ for i in range(0,b):
     for j in range(0,a):
         if(int(bb[i])==int(aa[j])):
             flag=1
-            print(bb[i])
             break
     if(flag==0):
         flag1=0
